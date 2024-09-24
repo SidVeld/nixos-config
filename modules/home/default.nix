@@ -2,6 +2,7 @@
 {
   imports = [
     ./editors
+    ./hyprland
 
     ./btop.nix
     ./git.nix

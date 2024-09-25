@@ -11,5 +11,6 @@
     nautilus
     evince
     nixd
+    firefox
   ];
 }

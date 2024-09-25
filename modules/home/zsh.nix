@@ -2,6 +2,6 @@
 {
   programs.zsh = {
     enable = true;
-    enbaleCompletion = true;
+    enableCompletion = true;
   };
 }

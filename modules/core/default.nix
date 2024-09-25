@@ -10,5 +10,6 @@
     ./user.nix
     ./wayland.nix
     ./xserver.nix
+    ./nvidia.nix
   ];
 }

@@ -9,6 +9,6 @@
     ./kitty.nix
     ./packages.nix
     ./starship.nix
-    ./zsh.nix
+    ./waybar/nix
   ];
 }

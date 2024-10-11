@@ -7,7 +7,6 @@
     fastfetch
     pipes
     tldr
-    waybar
     nautilus
     evince
     nixd

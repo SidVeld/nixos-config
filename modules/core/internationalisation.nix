@@ -5,6 +5,8 @@
     xkb.options = "grp:alt_shift_toggle";
   };
 
+  time.timeZone = "Europe/Moscow";
+
   i18n.supportedLocales = [
     "en_US.UTF-8/UTF-8"
     "ru_RU.UTF-8/UTF-8"

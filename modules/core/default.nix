@@ -8,7 +8,5 @@
     ./program.nix
     ./system.nix
     ./user.nix
-    ./wayland.nix
-    ./xserver.nix
   ];
 }

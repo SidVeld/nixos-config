@@ -33,7 +33,12 @@
       desktop = nixpkgs.lib.nixosSystem {
         inherit system;
         modules = [./hosts/desktop/configuration.nix];
-        specialArgs = { host="station"; inherit self inputs username; };
+        specialArgs = { username = "nautilus"; host = "compilus"; inherit self inputs; };
+      };
+      server = nixpkgs.lib.nixosSystem {
+        inherit system;
+        modules = [./hosts/desktop/configuration.nix];
+        specialArgs = { username = "clown"; host = "station"; inherit self inputs; };
       };
     };
   };
